@@ -47,6 +47,39 @@ header {
     color: blue;
 }
 
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 20px 5%;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .title {
+        margin-top: 10px;
+        font-size: 1.2em;
+    }
+
+    .nav_links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .nav_links li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
 .nav_links a {
     color: black;
     font-family: 'Times New Roman', Times, serif;
