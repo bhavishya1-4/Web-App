@@ -26,5 +26,13 @@
                 </ul>
             </nav>
         </header>
+                        <button class="nav_toggle" aria-label="Toggle navigation">&#9776;</button>
+                <script>
+                    const navToggle = document.querySelector('.nav_toggle');
+                    const navLinks = document.querySelector('.nav_links');
+                    navToggle.addEventListener('click', () => {
+                        navLinks.classList.toggle('nav_active');
+                    });
+                </script>
     </body>
 </html>
